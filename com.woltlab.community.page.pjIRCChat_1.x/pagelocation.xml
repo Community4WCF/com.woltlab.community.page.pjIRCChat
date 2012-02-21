@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: pagelocation.xml 690 2010-01-19 16:00:01Z TobiasH87 $ -->
+<data>
+	<import>
+		<!-- Pagelocation for WBB 3 -->
+		<pagelocation name="wcf.pjircchat.location">
+			<pattern><![CDATA[index\.php\?page=PJIRCChat]]></pattern>
+		</pagelocation>
+	</import>
+</data>

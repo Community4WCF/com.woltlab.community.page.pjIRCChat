@@ -1,0 +1,21 @@
+--- pjIRCChat.tpl	Mon Jan 18 21:54:34 2010
++++ pjIRCChat_with_patch.tpl	Mon Jan 18 22:22:18 2010
+@@ -28,14 +28,16 @@
+ 			<applet codebase="{@RELATIVE_WCF_DIR}/lib/page/util/pjIRCChat/" code="IRCApplet.class" archive="irc.jar,pixx.jar" width="{@PJIRCCHAT_WIDTH}" height="{@PJIRCCHAT_HEIGHT}" name="pjirc">
+ 				<param name="CABINETS" value="irc.cab,securedirc.cab,pixx.cab" />
+ 				
+-				<param name="nick" value="{if $this->user->username}{$PJIRCCHAT_CHECKEDNAME}{else}{@PJIRCCHAT_GUESTNAME}???{/if}" />
+-				<param name="alternatenick" value="{if $this->user->username}{$PJIRCCHAT_CHECKEDNAME}???{else}{@PJIRCCHAT_GUESTNAME}???{/if}" />
++				<param name="nick" value="{if $this->user->ircUsername}{@$this->user->ircUsername}{else}{if $this->user->username}{$PJIRCCHAT_CHECKEDNAME}{else}{@PJIRCCHAT_GUESTNAME}???{/if}{/if}" />
++				<param name="alternatenick" value="{if $this->user->irc2ndUsername}{@$this->user->irc2ndUsername}{else}{if $this->user->ircUsername}{@$this->user->ircUsername}???{else}{if $this->user->username}{$PJIRCCHAT_CHECKEDNAME}???{else}{@PJIRCCHAT_GUESTNAME}???{/if}{/if}{/if}" />
+ 				<param name="name" value="{@PJIRCCHAT_LOGONNAME}" />
+ 				<param name="host" value="{@PJIRCCHAT_HOST}" />
+ 				<param name="port" value="{@PJIRCCHAT_PORT}" />
+ 				<param name="gui" value="pixx" />
+ 				<param name="quitmessage" value="{@PJIRCCHAT_QUITMESSAGE}" />
+ 				<param name="command1" value="/join {@PJIRCCHAT_CHANNELNAME}" />
++				{if $this->user->ircUsername && $this->user->ircPassword}<param name="command2" value="{@PJIRCCHAT_IDENT} {@$this->user->ircPassword}" />{/if}
++				{if $this->user->ircUsername && $this->user->ircPassword && $this->user->ircCommand}<param name="command3" value="{@$this->user->ircCommand}" />{/if}
+ 				{if MODULE_HELP}<param name="pixx:helppage" value="{@PAGE_URL}/index.php?page=Help&item=pjircchat{@SID_ARG_2ND}" />{/if}
+ 				{if $this->language->getLanguageCode()|ucfirst == "En"}<param name="language" value="english">
+ 				<param name="pixx:language" value="pixx-english">{/if}

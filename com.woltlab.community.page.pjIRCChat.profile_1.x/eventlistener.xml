@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: eventlistener.xml 697 2010-01-19 16:26:59Z TobiasH87 $ -->
+<data>	
+	<import>
+		<!-- Profil -->
+		<eventlistener>
+			<eventclassname>UserProfileEditForm</eventclassname>
+			<eventname>validate</eventname>
+			<listenerclassfile>lib/system/event/listener/UserProfileEditFormIRCListener.class.php</listenerclassfile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>UserProfileEditForm</eventclassname>
+			<eventname>assignVariables</eventname>
+			<listenerclassfile>lib/system/event/listener/UserProfileEditFormIRCListener.class.php</listenerclassfile>
+		</eventlistener>
+		<!-- pjIRC Chat -->
+		<eventlistener>
+			<eventclassname>PJIRCChatPage</eventclassname>
+			<eventname>show</eventname>
+			<listenerclassfile>lib/system/event/listener/PJIRCChatPageIRCListener.class.php</listenerclassfile>
+		</eventlistener>
+	</import>
+</data>

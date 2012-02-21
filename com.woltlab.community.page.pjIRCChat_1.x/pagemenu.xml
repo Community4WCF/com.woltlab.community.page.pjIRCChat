@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: pagemenu.xml 690 2010-01-19 16:00:01Z TobiasH87 $ -->
+<data>	
+	<import>
+		<!-- Adds a menu item in the menu. -->
+		<pagemenuitem name="wcf.header.menu.pjircchat">
+			<iconmedium>pjircchatM.png</iconmedium>
+			<iconsmall>pjircchatS.png</iconsmall>
+			<position>header</position>
+			<permissions>user.managepages.canSeepjircchat</permissions>
+			<link>index.php?page=PJIRCChat</link>
+		</pagemenuitem>
+	</import>
+</data>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 703 2010-01-19 18:54:40Z TobiasH87 $ -->
+<data>
+	<import>
+		<options>
+			<!-- ircchat.config -->
+			<option name="pjircchat_ident">
+				<categoryname>pjircchat.profile</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>/msg NickServ IDENTIFY</defaultvalue>
+			</option>
+			<!-- /ircchat.config-->
+		</options>
+	</import>
+</data>

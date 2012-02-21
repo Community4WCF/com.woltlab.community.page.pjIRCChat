@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 704 2010-01-19 19:00:14Z TobiasH87 $ -->
+<language languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.pjircchat_ident"><![CDATA[IDENTIFY Command]]></item>
+		<item name="wcf.acp.option.pjircchat_ident.description"><![CDATA[Here you can adjust the IDENTIFY command to match the one of your server. Example:  /msg NickServ IDENTIFY ]]></item>
+	</category>
+	
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.category.profile.irc"><![CDATA[IRC Settings for our channel]]></item>
+		<item name="wcf.user.option.ircUsername"><![CDATA[IRC Username]]></item>
+		<item name="wcf.user.option.ircUsername.description"><![CDATA[Here you can enter your IRC-Username.]]></item>
+		<item name="wcf.user.option.irc2ndUsername"><![CDATA[Alternate IRC Username]]></item>
+		<item name="wcf.user.option.irc2ndUsername.description"><![CDATA[Here you can enter an alternate IRC-Username, which will be used if your specified Username is taken.]]></item>
+		<item name="wcf.user.option.ircPassword"><![CDATA[IRC Password]]></item>
+		<item name="wcf.user.option.ircPassword.description"><![CDATA[Here you can enter your IRC-Password. Note: The administrator has the ability to see the password.]]></item>
+		<item name="wcf.user.option.ircCommand"><![CDATA[Additional IRC Command]]></item>
+		<item name="wcf.user.option.ircCommand.description"><![CDATA[Here you can specify an IRC-Command which will be executed after connecting to the Server.<br />Example: /mode Username +x]]></item>
+	</category>
+</language>

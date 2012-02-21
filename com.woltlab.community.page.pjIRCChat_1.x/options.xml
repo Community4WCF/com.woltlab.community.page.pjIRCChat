@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 714 2010-01-20 13:06:44Z TobiasH87 $ -->
+<data>
+	<import>
+		<categories>
+			<!-- Adds a menu item and sub-item under Options -->
+			<category name="pjircchat">
+			<permissions>admin.content.managepages.pjircchat</permissions>
+			</category>
+			<category name="pjircchat.appearence">
+				<parent>pjircchat</parent>
+				<permissions>admin.content.managepages.pjircchat</permissions>
+				<showorder>20</showorder>
+			</category>
+			<category name="pjircchat.server">
+				<parent>pjircchat</parent>
+				<permissions>admin.content.managepages.pjircchat</permissions>
+				<showorder>2</showorder>
+			</category>
+			<category name="pjircchat.channel">
+				<parent>pjircchat</parent>
+				<permissions>admin.content.managepages.pjircchat</permissions>
+				<showorder>3</showorder>
+			</category>
+			<category name="pjircchat.profile">
+				<parent>pjircchat</parent>
+				<permissions>admin.content.managepages.pjircchat</permissions>
+				<showorder>4</showorder>
+			</category>
+			<category name="pjircchat.advanced">
+				<parent>pjircchat</parent>
+				<permissions>admin.content.managepages.pjircchat</permissions>
+				<showorder>5</showorder>
+			</category>
+		</categories>
+		
+		<options>
+			<!-- ircchat.config -->
+			<option name="pjircchat_width">
+				<categoryname>pjircchat.appearence</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>740</defaultvalue>
+			</option>
+			<option name="pjircchat_height">
+				<categoryname>pjircchat.appearence</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>500</defaultvalue>
+			</option>
+			<option name="pjircchat_smilies">
+				<categoryname>pjircchat.appearence</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<options>module_smiley</options>
+			</option>
+			<option name="pjircchat_xtramsg">
+				<categoryname>pjircchat.appearence</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
+			</option>
+			
+			<option name="pjircchat_host">
+				<categoryname>pjircchat.server</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>irc.community4wcf.eu</defaultvalue>
+			</option>
+			<option name="pjircchat_port">
+				<categoryname>pjircchat.server</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>6667</defaultvalue>
+			</option>
+			
+			<option name="pjircchat_channelname">
+				<categoryname>pjircchat.channel</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>#your-channel</defaultvalue>
+			</option>
+			
+			<option name="pjircchat_guestname">
+				<categoryname>pjircchat.profile</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>Guest</defaultvalue>
+			</option>
+			<option name="pjircchat_logonname">
+				<categoryname>pjircchat.profile</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>GuestUser</defaultvalue>
+			</option>
+			<option name="pjircchat_quitmessage">
+				<categoryname>pjircchat.profile</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>WCF rulez!</defaultvalue>
+			</option>	
+			
+			<option name="pjircchat_advanced">
+				<categoryname>pjircchat.advanced</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue><![CDATA[<param name="asl" value="false" />
+<param name="allowdccchat" value="false" />
+<param name="allowdccfile" value="false" />
+<param name="pixx:showabout" value="false" />
+<param name="pixx:showhelp" value="true" />
+<param name="pixx:nickfield" value="true" />
+<param name="pixx:showclose" value="true" />
+<param name="pixx:timestamp" value="true" />
+<param name="pixx:highlight" value="true" />
+<param name="pixx:highlightnick" value="true" />
+<param name="pixx:styleselector" value="true" />
+<param name="pixx:setfontonstyle" value="true" />
+<param name="style:floatingasl" value="false" />
+<param name="style:highlightlinks" value="true" />]]></defaultvalue>
+			</option>
+			<option name="pjircchat_regex">
+				<categoryname>pjircchat.advanced</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>[^0-9a-zA-Z]</defaultvalue>
+			</option>			
+			<!-- /ircchat.config-->
+		</options>
+	</import>
+	<delete>
+		<option name="pjircchat_online" />
+	</delete>
+</data>

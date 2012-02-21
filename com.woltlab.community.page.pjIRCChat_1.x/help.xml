@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: help.xml 706 2010-01-19 19:26:43Z TobiasH87 $ -->
+<data>	
+	<import>
+		<helpitem name="pjircchat">
+			<showorder>50</showorder>
+			<refererpattern><![CDATA[index\.php\?page=PJIRCChat]]></refererpattern>
+			<permissions>user.managepages.canSeepjircchat</permissions>
+		</helpitem>
+		<helpitem name="pjircchat.general">
+			<parent>pjircchat</parent>
+			<refererpattern><![CDATA[index\.php\?page=PJIRCChat]]></refererpattern>
+			<permissions>user.managepages.canSeepjircchat</permissions>
+			<showorder>1</showorder>
+		</helpitem>
+		<helpitem name="pjircchat.commands">
+			<parent>pjircchat</parent>
+			<refererpattern><![CDATA[index\.php\?page=PJIRCChat]]></refererpattern>
+			<permissions>user.managepages.canSeepjircchat</permissions>
+			<showorder>2</showorder>
+		</helpitem>
+	</import>
+</data>

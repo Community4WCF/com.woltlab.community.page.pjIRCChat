@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de.xml 690 2010-01-19 16:00:01Z TobiasH87 $ -->
+<language languagecode="de">
+	<category name="wcf.pjircchat">
+		<item name="wcf.pjircchat.main"><![CDATA[Chat]]></item>
+		<item name="wcf.pjircchat.information"><![CDATA[{lang}{PAGE_TITLE}{/lang} chatroom]]></item>
+		<item name="wcf.pjircchat.server"><![CDATA[Server]]></item>
+		<item name="wcf.pjircchat.port"><![CDATA[Port]]></item>
+		<item name="wcf.pjircchat.channel"><![CDATA[Channel]]></item>
+		<item name="wcf.pjircchat.location"><![CDATA[<a href="index.php?page=PJIRCChat">Chat</a>]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.group.option.category.user.board.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.group.option.category.user.board.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.pjircchat"><![CDATA[pjIRC-Chat]]></item>
+		<item name="wcf.acp.option.category.pjircchat.description"><![CDATA[Einstellungen für den Java IRC client]]></item>
+		
+		<item name="wcf.acp.option.category.pjircchat.appearence"><![CDATA[Aussehen]]></item>
+		<item name="wcf.acp.option.category.pjircchat.appearence.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.pjircchat.server"><![CDATA[Server Einstellungen]]></item>
+		<item name="wcf.acp.option.category.pjircchat.server.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.pjircchat.channel"><![CDATA[Channel Einstellungen]]></item>
+		<item name="wcf.acp.option.category.pjircchat.channel.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.pjircchat.profile"><![CDATA[Profil Einstellungen]]></item>
+		<item name="wcf.acp.option.category.pjircchat.profile.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.pjircchat.advanced"><![CDATA[Erweiterte Einstellungen]]></item>
+		<item name="wcf.acp.option.category.pjircchat.advanced.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.option.pjircchat_width"><![CDATA[Breite]]></item>
+		<item name="wcf.acp.option.pjircchat_width.description"><![CDATA[Bitte geben Sie die Breite des Applets an.]]></item>
+		<item name="wcf.acp.option.pjircchat_height"><![CDATA[Höhe]]></item>
+		<item name="wcf.acp.option.pjircchat_height.description"><![CDATA[Bitte geben Sie die Höhe des Applets an.]]></item>
+		<item name="wcf.acp.option.pjircchat_smilies"><![CDATA[Smilie Liste anzeigen]]></item>
+		<item name="wcf.acp.option.pjircchat_smilies.description"><![CDATA[Bitte geben Sie an ob die Smilie Liste unter der Chatbox angezeigt werden soll.]]></item>
+		<item name="wcf.acp.option.pjircchat_xtramsg"><![CDATA[Zusätzliche Nachricht]]></item>
+		<item name="wcf.acp.option.pjircchat_xtramsg.description"><![CDATA[Hier können Sie eine zusätzliche Nachricht erstellen, die Ihren Benutzern unter den Server-Daten angezeigt wird. HTML kann verwendet werden.]]></item>
+		
+		<item name="wcf.acp.option.pjircchat_host"><![CDATA[Server Host]]></item>
+		<item name="wcf.acp.option.pjircchat_host.description"><![CDATA[Bitte geben Sie den Server Host an. Beispiel: irc.domain.tld]]></item>
+		<item name="wcf.acp.option.pjircchat_port"><![CDATA[Server Port]]></item>
+		<item name="wcf.acp.option.pjircchat_port.description"><![CDATA[Bitte geben Sie das Port an, mit welchem verbunden wird. Standard: 6667]]></item>
+		
+		<item name="wcf.acp.option.pjircchat_channelname"><![CDATA[Channel]]></item>
+		<item name="wcf.acp.option.pjircchat_channelname.description"><![CDATA[Bitte geben Sie den Namen des Channels an, welcher betreten wird.]]></item>
+		
+		<item name="wcf.acp.option.pjircchat_guestname"><![CDATA[Gast Nick]]></item>
+		<item name="wcf.acp.option.pjircchat_guestname.description"><![CDATA[Bitte geben Sie den standard Gast Namen an.]]></item>
+		<item name="wcf.acp.option.pjircchat_logonname"><![CDATA[Logon Name]]></item>
+		<item name="wcf.acp.option.pjircchat_logonname.description"><![CDATA[Bitte geben Sie den Namen an, mit welchem sich ein Gaste identifiziert.]]></item>
+		<item name="wcf.acp.option.pjircchat_quitmessage"><![CDATA[Quit Nachricht]]></item>
+		<item name="wcf.acp.option.pjircchat_quitmessage.description"><![CDATA[Bitte geben Sie die standard Quit Nachricht an.]]></item>
+
+		<item name="wcf.acp.option.pjircchat_advanced"><![CDATA[Erweiterte Einstellungen]]></item>
+		<item name="wcf.acp.option.pjircchat_advanced.description"><![CDATA[Hier können Sie erweiterte Einstellungen für das pjIRC Applet vornehmen. Ändern Sie hier nur etwas, wenn Sie genau wissen was Sie tun!]]></item>
+		<item name="wcf.acp.option.pjircchat_regex"><![CDATA[Nickname Zensierung]]></item>
+		<item name="wcf.acp.option.pjircchat_regex.description"><![CDATA[Hier können Sie festlegen, welche Zeichen in einem Benutzernamen erlaubt werden sollen, indem sie eine "Regular Expression" einsetzen. Ändern Sie hier nur etwas, wenn Sie genau wissen was Sie tun!]]></item>
+
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.managepages"><![CDATA[Seitenverwaltung]]></item>
+		<item name="wcf.acp.group.option.category.user.managepages.description"><![CDATA[Zum Verwalten Ihrer Seiten.]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canSeepjircchat"><![CDATA[Kann IRC Chat benutzen]]></item>
+		<item name="wcf.acp.group.option.user.managepages.canSeepjircchat.description"><![CDATA[Mitglieder dieser Benutzergruppe können den IRC Chat benutzen.]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.managepages"><![CDATA[Seitenverwaltung]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.managepages.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.content.managepages.pjircchat"><![CDATA[Kann IRC Chat bearbeiten]]></item>
+		<item name="wcf.acp.group.option.admin.content.managepages.pjircchat.description"><![CDATA[Mitglieder dieser Benutzergruppe können den IRC Chat bearbeiten.]]></item>
+	</category>
+	
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.pjircchat"><![CDATA[Chat]]></item>
+	</category>
+	
+	<category name="wcf.help.item">
+		<item name="wcf.help.item.pjircchat"><![CDATA[IRC Chat]]></item>
+		<item name="wcf.help.item.pjircchat.general"><![CDATA[Allgemeine Informationen]]></item>
+		<item name="wcf.help.item.pjircchat.commands"><![CDATA[IRC Kommandos]]></item>
+		
+		<item name="wcf.help.item.pjircchat.description"><![CDATA[<p>Auf den folgenden Seiten finden Sie eine kurze Beschreibung, damit Sie wissen was IRC eigentlich ist, sowie einige ausgewählte Basis-Kommandos die Sie auf den Servern benutzen können.</p>]]></item>
+		<item name="wcf.help.item.pjircchat.general.description"><![CDATA[<p><strong>Internet Relay Chat</strong>, kurz <strong>IRC</strong>, bezeichnet ein etabliertes, rein textbasiertes Chat-System. Es ermöglicht Gesprächsrunden mit einer beliebigen Anzahl von Teilnehmern in so genannten Channels (Gesprächskanäle), aber auch Gespräche zwischen zwei Teilnehmern (Query). Neue Channel können üblicherweise jederzeit von jedem Teilnehmer frei eröffnet werden, ebenso kann man gleichzeitig an mehreren Channels teilnehmen.<br /><br />
+Zur Teilnahme wird ein spezielles Chat-Programm, der IRC-Client, verwendet; es existiert alleinstehende Software sowie beispielsweise in Browsern integrierte Funktionalitäten (z. B. Opera oder Mozilla).<br /><br />
+IRC ist verglichen mit anderen Chat-Systemen äußerst leistungsfähig und robust. Zur Vermittlung der Gespräche wird ein Netzwerk aus miteinander verbundenen Servern eingesetzt, so dass die Belastung auf viele Rechner verteilt und so eine nahezu beliebig große „Chatlandschaft“ ermöglicht wird.</p>]]></item>
+		<item name="wcf.help.item.pjircchat.commands.description"><![CDATA[<p>Auf dieser Seite findest du einige ausgewählte Basis-Kommandos, die du verwenden kannst sobald du mit einem IRC Server verbunden bist.</p>
+<h4>Nickname Kommandos</h4>
+<ul>
+	<h4>Services: NickServ</h4>
+	<li><h5>REGISTER</h5>
+		<ul>
+			<li>Syntax: /ns register PASSWORT EMAIL oder /msg NickServ register PASSWORT EMAIL</li>
+			<p>Dieses Kommando registriert Ihren aktuellen Nickname auf dem IRC server.</p>
+		</ul>
+	</li>
+	<li><h5>SENDPASS</h5>
+		<ul>
+			<li>Syntax: /ns sendpass NICKNAME oder /msg NickServ sendpass NICKNAME</li>
+			<p>Falls Sie einmal Ihr Passwort vergessen haben, können Sie es mit diesem Kommando anfordern. Es wird an die bei der registrierung angegebene eMail Addresse gesendet.</p>
+		</ul>
+	</li>
+	<li><h5>SET</h5>
+		<ul>
+			<li>Syntax: /ns set PASSWORD oder /msg NickServ set PASSWORD</li>
+			<p>Mit diesem Kommando können Sie das Passwort für einen von Ihnen registrierten Nickname ändern.</p>
+		</ul>
+	</li>
+	<li><h5>IDENTIFY</h5>
+		<ul>
+			<li>Syntax: /ns identify PASSWORD oder /msg NickServ identify PASSWORD</li>
+			<p>Falls NickServ Sie auffordert sich zu identifizieren, können Sie der Aufforderung mit diesem Kommando nachkommen.</p>
+		</ul>
+	</li>
+	<h4>Services: AuthServ</h4>
+	<li><h5>REGISTER</h5>
+		<ul>
+			<li>Syntax: /as register ACCOUNT PASSWORT EMAIL oder /authserv register ACCOUNT PASSWORT EMAIL</li>
+			<p>Dieses Kommando registriert einen Account (Name) für Sie auf dem IRC server.</p>
+		</ul>
+	</li>
+	<li><h5>RESETPASS</h5>
+		<ul>
+			<li>Syntax: /as resetpass ACCOUNT neuesPASSWORD oder /authserv resetpass ACCOUNT neuesPASSWORD</li>
+			<p>Falls Sie einmal Ihr Passwort vergessen haben, können Sie mit diesem Kommando ein neues setzen. Anschließend muss die Änderung noch mit einem Cookie bestätigt werden, das an die bei der Registrierung angegebene eMail Addresse gesendet wird.</p>
+		</ul>
+	</li>
+	<li><h5>PASS</h5>
+		<ul>
+			<li>Syntax: /as pass altesPASSWORD neuesPASSWORD oder /authserv pass altesPASSWORD neuesPASSWORD</li>
+			<p>Mit diesem Kommando können Sie das Passwort für Ihren Account ändern.</p>
+		</ul>
+	</li>
+	<li><h5>AUTH</h5>
+		<ul>
+			<li>Syntax: /as auth ACCOUNT PASSWORD oder /authserv auth ACCOUNT PASSWORD</li>
+			<p>Mit diesem Kommando können Sie sich einloggen.</p>
+		</ul>
+	</li>
+</ul>
+<h4>Allgemeine Kommandos</h4>
+<ul>
+	<li><h5>WHOIS</h5>
+		<ul>
+			<li>Syntax: /whois NICKNAME</li>
+			<p>Dieses Kommando gibt Ihnen Informationen über den angegebenen Benutzer.</p>
+		</ul>
+	</li>
+	<li><h5>NICK</h5>
+		<ul>
+			<li>Syntax: /nick NICKNAME</li>
+			<p>Mit diesem Kommando können Sie Ihren Nickname ändern.</p>
+		</ul>
+	</li>
+	<li><h5>JOIN</h5>
+		<ul>
+			<li>Syntax: /join #CHANNEL</li>
+			<p>Dieses Kommando lässt Sie den angegebenen Channel betreten.</p>
+		</ul>
+	</li>
+	<li><h5>PART</h5>
+		<ul>
+			<li>Syntax: /part #CHANNEL (text)</li>
+			<p>Mit diesem Kommando können Sie den angegebenen Channel verlassen. Eine "part-Nachricht" ist optional.</p>
+		</ul>
+	</li>
+	<li><h5>QUIT</h5>
+		<ul>
+			<li>Syntax: /quit (text)</li>
+			<p>Wie das /part Kommando, lässt Sie dieses Kommando alle Channel verlassen, und trennt die Verbindung zum Server. Eine "quit-Nachright" ist optional.</p>
+		</ul>
+	</li>
+	<li><h5>AWAY</h5>
+		<ul>
+			<li>Syntax: /away GRUND</li>
+			<p>Mit diesem Kommando können Sie sich im Channel als abwesend markieren. Der angegeben Grund dient dabei als kleine begründung.</p>
+		</ul>
+	</li>
+</ul>]]></item>
+	</category>
+</language>
